@@ -1,18 +1,25 @@
-// Import Assets
+import React from 'react';
 import profile from '../assets/profile.png';
 
 const Header = () => {
-    return (
-        <section className='header'>
-            <img src={profile} alt="John Doe" />
+  const handleButtonClick = () => {
+    window.open('mailto:wmgrenaway@webuildweb3.org');
+  };
 
-            <div className='header__content'>
-                <h1>Hi, I'm John Doe</h1>
-                <p>Blockchain Developer</p>
-                <button className='button'>Get In Touch</button>
-            </div>
-        </section>
-    );
-}
+  return (
+    <section className="header">
+      <img src={profile} alt="Whitney" />
+
+      <div className="header__content">
+        <h1>Hi, I'm Whitney</h1>
+        <p>Aspiring Blockchain Developer</p>
+        <button className="button" onClick={handleButtonClick}>
+          Get In Touch
+        </button>
+      </div>
+    </section>
+  );
+};
 
 export default Header;
+

@@ -2,7 +2,6 @@ import React from 'react';
 import Header from './components/Header';
 import About from './components/About';
 import Experience from './components/Experience';
-import Social from './components/Social';
 import Footer from './components/Footer';
 
 const App = () => {
@@ -11,7 +10,6 @@ const App = () => {
       <Header />
       <About />
       <Experience />
-      <Social />
       <Footer />
     </div>
   );

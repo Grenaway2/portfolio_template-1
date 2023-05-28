@@ -12,7 +12,7 @@ const Header = () => {
 
       <div className="header__content">
         <h1>Hi, I'm Whitney</h1>
-        <p>Aspiring Blockchain Developer</p>
+        <p style={{ fontSize: '30px' }}>Aspiring Blockchain Developer</p>
         <button className="button" onClick={handleButtonClick}>
           Get In Touch
         </button>
@@ -22,4 +22,3 @@ const Header = () => {
 };
 
 export default Header;
-
